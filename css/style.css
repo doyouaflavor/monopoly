@@ -1,5 +1,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/cwtexhei.css);
 
+.reveal p{
+    font-size: .6em;
+}
 
 .reveal *{
     font-family: 'cwTeXHei', sans-serif;
@@ -18,6 +21,14 @@ div#wrapper{
     z-index:999;
 }
 
+.next {
+    background-color: #D85427;
+    border-color: #C24B23;
+    color: #fff;
+    font-size: .6em;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
 
 
 @keyframes click-wave {

@@ -4,18 +4,25 @@
 	<meta charset="UTF-8">
 	<title>你是哪種窮鬼</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reveal.css" />
     <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/style.css">
 	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="js/reveal.js"></script>
-	<script src="js/script.js"></script>
 </head>
 <body>
 <div class="wrapper reveal">
     <div class="slides">
        <section>
            你才不是窮鬼呢！我們都是XXX的大富翁！
+           <br>
+           <br>
+           <div>
+               <button class="next">
+                   開始囉
+               </button>
+           </div>
+           
        </section>
         <section class="question-1">
            <h3>你的畢業證書掉到湖裡了，湖中女神跳出來問你，你掉的是哪份工作呢？</h3>
@@ -77,38 +84,56 @@
             <p class="result">
                 意志力的大富翁啊！
             </p>
+            <div>
+               <button class="next">
+                   下一頁
+               </button>
+           </div>
         </section>
+        
+        <section>
+           <p>
+            嘿，做完問題後，<br>
+            你或許猜到自己其實不是個大富翁，<br>
+            但也不一定真的了解貧窮的樣子。
+            </p>
+            <p>
+            其實，貧窮跟你我息息相關，<br>
+            在急遽改變的時代裡，你我都可能成為明日的貧窮人。<br>
+            貧窮不一定只是物質的匱乏、不一定能靠後天的努力消弭，<br>
+            而貧窮人更可能因為社會的不了解而墜落到更深的地方。
+            </p>
+            <p>
+
+            因此，我們正要進行一系列關於貧窮人的活動，<br>
+            讓大家一起看見、聆聽、和體驗貧窮。
+            </p>
+            <div>
+               <button class="next">
+                   下一頁
+               </button>
+           </div>
+        </section>
+        
+       
+        <section>
+            <p>
+                如果你願意接受以下的資訊，支持這樣的活動，<br>
+                希望能請你留下你的稱呼以、電郵及電話，<br>
+                方便我們將更多有趣的資訊傳遞給您。
+            </p>
+            <p>
+            :point_right:展覽資訊<br>
+            :point_right:募資資訊
+            </p>
+        <iframe src="https://services.cognitoforms.com/f/fECe5kKYdUm25ynvrLwHDg?id=2" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="387" width="100%" class="form-iframe"></iframe>
+<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+        <p>或是幫我們把問卷<a onclick="sendToFb();">分享到 Facebook </a></p>
+   </section>
     </div>
 </div>
 
-<script>
-        // More info https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
-            center: true,
-            transition: 'slide', // none/fade/slide/convex/concave/zoom
-            // More info https://github.com/hakimel/reveal.js#dependencies
-//            dependencies: [
-//                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-//                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-//                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-//                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-//                { src: 'plugin/zoom-js/zoom.js', async: true },
-//                { src: 'plugin/notes/notes.js', async: true }
-//            ]
-        });
-    
-    $(function(){
-      $('input').click(function(){
-          setTimeout(function(){
-            Reveal.right();  
-              
-          },500);
-      })
-  });
-    </script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
