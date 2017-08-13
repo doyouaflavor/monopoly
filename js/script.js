@@ -96,7 +96,7 @@
         window.sendToFB = function(){
             FB.ui({
               method: 'feed',
-              link: 'https://developers.facebook.com/docs/',
+              link: 'https://doyouaflavor.github.io/monopoly',
               caption: 'An example caption',
             }, function(response){});
                     }
