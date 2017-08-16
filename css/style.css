@@ -22,9 +22,9 @@ div#wrapper{
 }
 
 .next {
-    background-color: #D85427;
-    border-color: #C24B23;
-    color: #fff;
+    background-color: #ffeb88;
+/*    border-color: #C24B23;*/
+    color: #222;
     font-size: .6em;
     padding: 15px 30px;
     border-radius: 10px;
@@ -63,7 +63,7 @@ input[type=radio] {
   transition: all 0.15s ease-out 0s;
   background: #cbd1d8;
   border: none;
-  color: #fff;
+  color: #222;
   cursor: pointer;
   display: inline-block;
   margin-right: 0.5rem;
@@ -75,7 +75,7 @@ input[type=radio]:hover {
   background: #9faab7;
 }
 input[type=radio]:checked {
-  background: #40e0d0;
+  background: #ffeb88;
 }
 input[type=radio]:checked::before {
   height: 40px;
@@ -91,7 +91,7 @@ input[type=radio]:checked::after {
   -webkit-animation: click-wave 0.65s;
   -moz-animation: click-wave 0.65s;
   animation: click-wave 0.65s;
-  background: #40e0d0;
+  background: #ffeb88;
   content: '';
   display: block;
   position: relative;

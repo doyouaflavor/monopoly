@@ -43,11 +43,11 @@
             console.log()
             
             if(maxAns == 1){
-                str = '意志力的大富翁啊！<br>雖然辛苦、存的錢很少，沒有時間可以花錢，心靈貧困<br>但你仍堅持下去';
+                str = '意志力的大富翁啊！<br>人有兩隻腳，大家都知道，但錢有四隻腳，我就追不到。<br>每天早上還來不及睜開眼睛就開始跟時間賽跑，何時能停下來好好休息呢？<div><img src="img/result1.jpg"/></div>';
             }else if(maxAns == 2){
-                str = '明日的大富翁';
+                str = '明日的大富翁啊！<br>現在還買不起房子，現在還沒有存款，<br>沒關係，未來人人都有機會，在夢裡變成大富翁！<div><img src="img/result2.jpg"/></div>';
             }else if(maxAns == 3){
-                str = '心靈的大富翁';
+                str = '心靈的大富翁啊！<br>吃不飽穿不暖，果然有夢最美失望相隨<div><img src="img/result3.jpg"/></div>';
                      }
             console.log(str);
             setFinalAnswer(str);
@@ -75,6 +75,10 @@
 //            },500);
 //        });
         
+//        Reveal.addEventListener( 'slidechanged', function( event ) {
+//            window.href=""
+//        }
+        
          window.fbAsyncInit = function() {
             FB.init({
               appId            : '144111119374573',
@@ -89,7 +93,7 @@
              var js, fjs = d.getElementsByTagName(s)[0];
              if (d.getElementById(id)) {return;}
              js = d.createElement(s); js.id = id;
-             js.src = "//connect.facebook.net/en_US/sdk.js";
+             js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10&appId=144111119374573";
              fjs.parentNode.insertBefore(js, fjs);
            }(document, 'script', 'facebook-jssdk'));
         
