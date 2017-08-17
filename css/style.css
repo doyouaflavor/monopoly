@@ -20,6 +20,9 @@ div#wrapper{
     width:100%;
     z-index:999;
 }
+.reveal .slides{
+    text-align: left;
+}
 
 .next {
     background-color: #ffeb88;
