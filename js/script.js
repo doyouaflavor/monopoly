@@ -40,7 +40,6 @@
             var arr = Object.keys( ansArr ).map(function ( key ) { return ansArr[key]; });
             var str = '';
             var maxAns = ansArr.indexOf(Math.max(...arr));
-            console.log()
             
             if(maxAns == 1){
                 str = '意志力的大富翁啊！<br>人有兩隻腳，大家都知道，但錢有四隻腳，我就追不到。<br>每天早上還來不及睜開眼睛就開始跟時間賽跑，何時能停下來好好休息呢？<div><a onclick="Reveal.right();" href="javascript:void(0);"><img src="img/result1.jpg"/></a></div>';
@@ -49,7 +48,6 @@
             }else if(maxAns == 3){
                 str = '心靈的大富翁啊！<br>只要是能用錢解決的事，一件都解決不了呢<div><a onclick="Reveal.right();" href="javascript:void(0);"><img src="img/result3.jpg"/></a></div>';
                      }
-            console.log(str);
             setFinalAnswer(str);
         });
         
@@ -104,4 +102,9 @@
               caption: 'An example caption',
             }, function(response){});
                     }
+        
+    $(window).on("beforeunload", function() { 
+        var index = $(Reveal.getCurrentSlide()).index();
+        ga('send', 'event', 'window', 'quit', 'slide-'+index);
+    })
   });
