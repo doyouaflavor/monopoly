@@ -32,6 +32,33 @@ div#wrapper{
     padding: 15px 30px;
     border-radius: 10px;
 }
+.reveal input[type=radio] {
+    margin-top:30px;
+    vertical-align: bottom;
+}
+.reveal img{
+    width: 100%;
+}
+
+@media only screen and (orientation: portrait) {
+    .reveal p {
+        font-size: .8em;
+    }
+    .reveal h2{
+        font-size: 1.6em;
+    }
+    .reveal h3{
+/*        font-size: 1.6em;*/
+    }
+    .reveal .next{
+        font-size: 1.2em;
+        margin-top: 15px;
+        padding: 30px 60px
+/*        line-height:1.5em*/
+    }
+}
+
+
 
 
 @keyframes click-wave {
