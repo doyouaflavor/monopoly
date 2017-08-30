@@ -37,7 +37,12 @@ div#wrapper{
     vertical-align: bottom;
 }
 .reveal img{
-    width: 100%;
+    width: auto;
+}
+@media screen and (max-width: 480px) {
+    .reveal img{
+        width: 100%;
+    }
 }
 
 @media only screen and (orientation: portrait) {
